@@ -1,4 +1,4 @@
-# Tetris Tech website
+# TetrisTech website
 
 Plain HTML, CSS, and a little JavaScript. No build tools, no frameworks, no monthly fees. You own every line of this and it runs on your own Hetzner server behind Apache.
 

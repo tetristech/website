@@ -119,9 +119,8 @@ header.site-nav {
   width: 22px;
   height: 22px;
   flex-shrink: 0;
+  object-fit: contain;
 }
-.logo-mark rect { fill: var(--accent); }
-.logo-mark rect:nth-child(2) { fill: var(--accent-blue); }
 
 nav.links {
   display: flex;

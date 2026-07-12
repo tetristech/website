@@ -8,12 +8,19 @@
 // Fields:
 //   title        — the headline, your own words are fine even if you're
 //                   summarizing someone else's piece
-//   type         — one of: "article", "news", "product"
+//   type         — one of: "article", "news", "product", "tldr"
 //   source       — where it's from, shown as a small label (e.g. "MIT Tech Review")
 //   url          — the external link, this is where the card sends people
 //   date         — "YYYY-MM-DD", used for sorting, newest first
 //   description  — 1-2 sentences in your own words on why it's worth a look.
 //                   Don't paste text from the source, summarize it.
+//   image        — OPTIONAL. A URL to a thumbnail image, shown at the top of
+//                   the card. Mainly meant for "tldr" entries (infographics,
+//                   one image summaries), but works on any entry. Can point
+//                   to an image hosted elsewhere (like the original LinkedIn
+//                   or Twitter post) or one you've saved into assets/ and
+//                   reference locally, e.g. "assets/tldr/some-image.png".
+//                   Leave it off entirely for a plain text card.
 
 window.AI_CONTENT = [
   {
@@ -63,5 +70,14 @@ window.AI_CONTENT = [
     url: "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
     date: "2026-07-12",
     description: "Instead of just generating code, this model produces a mathematical proof of correctness using Lean 4, aimed at software where being right actually matters."
+  },
+  {
+    title: "How to build an AI agent, in eight steps",
+    type: "tldr",
+    source: "GenAI.works",
+    url: "https://www.linkedin.com/feed/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7482119705026273280",
+    date: "2026-07-12",
+    description: "A one page map from defining scope through system prompts, tool integrations, memory, orchestration, and testing, plus a comparison table of the current agent building platforms and frameworks.",
+    image: "assets/tldr/how-to-build-an-ai-agent.jpg"
   }
 ];

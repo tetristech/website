@@ -13,7 +13,7 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 let activeFilter = "all";
 let searchTerm = "";
 
-const TYPE_LABELS = { news: "News", article: "Article", product: "Product" };
+const TYPE_LABELS = { news: "News", article: "Article", product: "Product", tldr: "TL;DR" };
 
 function formatDate(iso) {
   const d = new Date(iso + "T00:00:00");
@@ -29,8 +29,12 @@ function sourceHostname(url) {
 }
 
 function cardHTML(item) {
+  const thumb = item.image
+    ? `<div class="card-thumb"><img src="${item.image}" alt="" loading="lazy"></div>`
+    : "";
   return `
     <a class="content-card" href="${item.url}" target="_blank" rel="noopener noreferrer">
+      ${thumb}
       <div class="card-top">
         <span class="card-type ${item.type}">${TYPE_LABELS[item.type] || item.type}</span>
         <span class="card-date">${formatDate(item.date)}</span>

@@ -79,5 +79,45 @@ window.AI_CONTENT = [
     date: "2026-07-12",
     description: "A one page map from defining scope through system prompts, tool integrations, memory, orchestration, and testing, plus a comparison table of the current agent building platforms and frameworks.",
     image: "assets/tldr/how-to-build-an-ai-agent.jpg"
+  },
+  {
+    title: "Apple sues OpenAI over alleged AI device trade secret theft",
+    type: "news",
+    source: "CNN Business",
+    url: "https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit",
+    date: "2026-07-10",
+    description: "Apple filed suit alleging OpenAI used stolen trade secrets while developing its own AI hardware, a rare direct legal clash between two companies both racing to define what a screenless AI device looks like."
+  },
+  {
+    title: "Cloudflare sets a September deadline for AI crawlers to pay or get blocked",
+    type: "news",
+    source: "TechCrunch",
+    url: "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+    date: "2026-07-01",
+    description: "Starting September 15, Cloudflare will block crawlers that mix search indexing with AI training on any page carrying ads, unless the site owner opts back in, pressuring Google and others to start paying publishers for the content their models train on."
+  },
+  {
+    title: "Three humanoid robot makers moved toward public markets in the same week",
+    type: "news",
+    source: "AI Weekly",
+    url: "https://aiweekly.co/",
+    date: "2026-07-09",
+    description: "Agility Robotics filed for a SPAC listing at a $2.5 billion valuation, Unitree cleared its Shanghai IPO, and Tesla began converting a former Model S line into an Optimus factory, three separate signals that humanoid robotics is moving from lab demos toward public capital."
+  },
+  {
+    title: "MIT's Murakkab optimizes the AI workflows behind agentic apps",
+    type: "article",
+    source: "MIT News",
+    url: "https://news.mit.edu/topic/artificial-intelligence2",
+    date: "2026-07-07",
+    description: "A new MIT system automatically tunes how multistep AI workflows are designed and deployed, aimed at the gap between how agentic apps get built by hand today and how efficiently they could actually run."
+  },
+  {
+    title: "Meta's new AI image watermark missed most cropped fakes in testing",
+    type: "product",
+    source: "Yahoo Tech",
+    url: "https://tech.yahoo.com/ai/",
+    date: "2026-07-12",
+    description: "Meta previewed a detection tool meant to flag images made with its new Muse Image generator, but a Reuters analysis found it failed to verify 55% of AI-generated images once they'd been cropped to a third or half their original size."
   }
 ];

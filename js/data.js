@@ -8,7 +8,7 @@
 // Fields:
 //   title        — the headline, your own words are fine even if you're
 //                   summarizing someone else's piece
-//   type         — one of: "news", "article", "report", "tldr", "tool"
+//   type         — one of: "news", "article", "report", "tldr", "tool", "learn"
 //   source       — where it's from, shown as a small label (e.g. "MIT Tech Review")
 //   url          — the external link, this is where the card sends people
 //   date         — "YYYY-MM-DD", used for sorting, newest first
@@ -143,5 +143,29 @@ window.AI_CONTENT = [
     url: "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
     date: "2026-01-21",
     description: "Based on a survey of over 3,200 senior leaders, this eighth annual edition looks at how far companies have actually gotten past pilots and into production AI, and where the value is failing to show up."
+  },
+  {
+    title: "Anthropic's free course teaches AI fluency as a skill, not a prompt trick",
+    type: "learn",
+    source: "Anthropic Academy",
+    url: "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+    date: "2026-07-12",
+    description: "Built around four competencies, delegation, description, discernment, and diligence, this free course aims at judgment that carries over across any AI tool, rather than a list of prompt templates that stop working the moment a model updates."
+  },
+  {
+    title: "Andrew Ng's \"AI for Everyone\" is still the fastest primer for non-technical teams",
+    type: "learn",
+    source: "DeepLearning.AI",
+    url: "https://www.deeplearning.ai/courses/ai-for-everyone/",
+    date: "2026-07-12",
+    description: "A short, no-code course aimed at people who need to make decisions about AI at work, managers, founders, anyone who has to weigh in on AI projects without building one themselves."
+  },
+  {
+    title: "Learn Prompting keeps a free, living reference for every prompting technique",
+    type: "learn",
+    source: "Learn Prompting",
+    url: "https://learnprompting.org/",
+    date: "2026-07-12",
+    description: "Less a course than a constantly updated field guide, covering everything from basic instruction writing through chain-of-thought and multi-agent prompting, useful to search when you hit a wall rather than to read start to finish."
   }
 ];

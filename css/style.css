@@ -16,6 +16,7 @@
   --accent-amber: #e0a94f;
   --accent-violet: #a389f4;
   --accent-rose: #e2617a;
+  --accent-cyan: #38b6d1;
 
   /* Type */
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
@@ -365,6 +366,7 @@ header.site-nav {
 .card-type.report { color: var(--accent-rose); border-color: rgba(226,97,122,0.35); }
 .card-type.tldr { color: var(--accent-violet); border-color: rgba(163,137,244,0.35); }
 .card-type.tool { color: var(--accent-amber); border-color: rgba(224,169,79,0.35); }
+.card-type.learn { color: var(--accent-cyan); border-color: rgba(56,182,209,0.35); }
 .card-date { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-faint); }
 
 .content-card h3 {

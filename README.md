@@ -21,7 +21,7 @@ Open it, copy one of the existing entries, and edit the fields:
 ```js
 {
   title: "A short, clear headline",
-  type: "news",              // "news", "article", "report", "tldr", or "tool"
+  type: "news",              // "news", "article", "report", "tldr", "tool", or "learn"
   source: "Where it's from",
   url: "https://example.com/the-actual-link",
   date: "2026-07-12",         // YYYY-MM-DD, controls sort order
@@ -55,4 +55,4 @@ GitHub Actions picks it up and deploys automatically. Check the Actions tab on G
 
 ## Editing the design
 
-Colors, fonts, and spacing all live in `css/style.css` under the `:root` block at the top. The five content types (news, article, report, tldr, tool) each get a color, controlled by `.card-type.news`, `.card-type.article`, `.card-type.report`, `.card-type.tldr`, and `.card-type.tool` further down that same file.
+Colors, fonts, and spacing all live in `css/style.css` under the `:root` block at the top. The six content types (news, article, report, tldr, tool, learn) each get a color, controlled by `.card-type.news`, `.card-type.article`, `.card-type.report`, `.card-type.tldr`, `.card-type.tool`, and `.card-type.learn` further down that same file.

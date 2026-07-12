@@ -8,7 +8,7 @@
 // Fields:
 //   title        — the headline, your own words are fine even if you're
 //                   summarizing someone else's piece
-//   type         — one of: "article", "news", "product", "tldr"
+//   type         — one of: "news", "article", "report", "tldr", "tool"
 //   source       — where it's from, shown as a small label (e.g. "MIT Tech Review")
 //   url          — the external link, this is where the card sends people
 //   date         — "YYYY-MM-DD", used for sorting, newest first
@@ -33,7 +33,7 @@ window.AI_CONTENT = [
   },
   {
     title: "Meituan's LongCat-2.0 lands as an open-weight coding model",
-    type: "product",
+    type: "tool",
     source: "Build Fast with AI",
     url: "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
     date: "2026-07-04",
@@ -65,7 +65,7 @@ window.AI_CONTENT = [
   },
   {
     title: "Mistral's Leanstral 1.5 proves code does what it claims to do",
-    type: "product",
+    type: "tool",
     source: "Medium — David Akpovi",
     url: "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
     date: "2026-07-12",
@@ -114,10 +114,34 @@ window.AI_CONTENT = [
   },
   {
     title: "Meta's new AI image watermark missed most cropped fakes in testing",
-    type: "product",
+    type: "tool",
     source: "Yahoo Tech",
     url: "https://tech.yahoo.com/ai/",
     date: "2026-07-12",
     description: "Meta previewed a detection tool meant to flag images made with its new Muse Image generator, but a Reuters analysis found it failed to verify 55% of AI-generated images once they'd been cropped to a third or half their original size."
+  },
+  {
+    title: "WEF's new framework judges whether schools are actually ready for AI",
+    type: "report",
+    source: "World Economic Forum",
+    url: "https://www.weforum.org/publications/shaping-the-future-of-learning-education-readiness-for-the-age-of-ai/",
+    date: "2026-06-04",
+    description: "Rather than treating AI adoption in classrooms as automatically good, this report argues the real risk is curricula, assessment, and governance moving far slower than students and teachers already are, and offers a readiness framework for closing that gap."
+  },
+  {
+    title: "Stanford's 2026 AI Index charts a year of faster adoption, falling costs",
+    type: "report",
+    source: "Stanford HAI",
+    url: "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    date: "2026-04-13",
+    description: "The ninth edition of this annual benchmark spans over 400 pages on model performance, spending, and public opinion, and finds generative AI reached over half of the population faster than the PC or the internet did."
+  },
+  {
+    title: "Deloitte's enterprise AI survey finds a gap between ambition and results",
+    type: "report",
+    source: "Deloitte",
+    url: "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+    date: "2026-01-21",
+    description: "Based on a survey of over 3,200 senior leaders, this eighth annual edition looks at how far companies have actually gotten past pilots and into production AI, and where the value is failing to show up."
   }
 ];

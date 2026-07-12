@@ -51,7 +51,7 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 let activeFilter = "all";
 let searchTerm = "";
 
-const TYPE_LABELS = { news: "News", article: "Article", product: "Product", tldr: "TL;DR" };
+const TYPE_LABELS = { news: "News", article: "Article", report: "Report", tldr: "TL;DR", tool: "Tool" };
 
 function formatDate(iso) {
   const d = new Date(iso + "T00:00:00");

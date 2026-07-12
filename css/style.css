@@ -15,6 +15,7 @@
   --accent-blue: #3b8eea;
   --accent-amber: #e0a94f;
   --accent-violet: #a389f4;
+  --accent-rose: #e2617a;
 
   /* Type */
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
@@ -361,8 +362,9 @@ header.site-nav {
 }
 .card-type.news { color: var(--accent-blue); border-color: rgba(59,142,234,0.35); }
 .card-type.article { color: var(--accent); border-color: rgba(47,214,153,0.35); }
-.card-type.product { color: var(--accent-amber); border-color: rgba(224,169,79,0.35); }
+.card-type.report { color: var(--accent-rose); border-color: rgba(226,97,122,0.35); }
 .card-type.tldr { color: var(--accent-violet); border-color: rgba(163,137,244,0.35); }
+.card-type.tool { color: var(--accent-amber); border-color: rgba(224,169,79,0.35); }
 .card-date { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-faint); }
 
 .content-card h3 {

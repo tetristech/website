@@ -1,6 +1,6 @@
 # TetrisTech — AI content hub
 
-A hand curated feed of AI news, articles, and product launches. Plain HTML, CSS, and JavaScript, no build tools, no CMS, no monthly fees. You own every line and it runs on your own Hetzner server behind Apache.
+A hand curated feed of AI news, articles, and tool launches. Plain HTML, CSS, and JavaScript, no build tools, no CMS, no monthly fees. You own every line and it runs on your own Hetzner server behind Apache.
 
 ## What's in here
 
@@ -21,7 +21,7 @@ Open it, copy one of the existing entries, and edit the fields:
 ```js
 {
   title: "A short, clear headline",
-  type: "news",              // "news", "article", "product", or "tldr"
+  type: "news",              // "news", "article", "report", "tldr", or "tool"
   source: "Where it's from",
   url: "https://example.com/the-actual-link",
   date: "2026-07-12",         // YYYY-MM-DD, controls sort order
@@ -55,4 +55,4 @@ GitHub Actions picks it up and deploys automatically. Check the Actions tab on G
 
 ## Editing the design
 
-Colors, fonts, and spacing all live in `css/style.css` under the `:root` block at the top. The three content types (news, article, product) each get a color, controlled by `.card-type.news`, `.card-type.article`, and `.card-type.product` further down that same file.
+Colors, fonts, and spacing all live in `css/style.css` under the `:root` block at the top. The five content types (news, article, report, tldr, tool) each get a color, controlled by `.card-type.news`, `.card-type.article`, `.card-type.report`, `.card-type.tldr`, and `.card-type.tool` further down that same file.

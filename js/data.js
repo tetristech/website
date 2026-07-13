@@ -81,6 +81,33 @@ window.AI_CONTENT = [
     image: "assets/tldr/how-to-build-an-ai-agent.jpg"
   },
   {
+    title: "12 Claude Code features every engineer should know",
+    type: "tldr",
+    source: "GenAI.works",
+    url: "https://www.linkedin.com/company/genai-works",
+    date: "2026-07-13",
+    description: "A single-page rundown of Claude Code features beyond basic prompting, covering CLAUDE.md, permissions, plan mode, checkpoints, skills, hooks, MCP, plugins, context management, slash commands, compaction, and subagents.",
+    image: "assets/tldr/claude-code-12-features.jpg"
+  },
+  {
+    title: "The layers of AI, from classic machine learning to agentic systems",
+    type: "tldr",
+    source: "GenAI.works",
+    url: "https://www.linkedin.com/company/genai-works",
+    date: "2026-07-13",
+    description: "A six-layer stack running from foundational AI and machine learning up through neural networks, deep learning, and generative AI, to agentic AI at the top, with the key techniques and components sitting at each level.",
+    image: "assets/tldr/layers-of-ai.jpg"
+  },
+  {
+    title: "Most people are using Copilot wrong",
+    type: "tldr",
+    source: "GenAI.works",
+    url: "https://www.linkedin.com/company/genai-works",
+    date: "2026-07-13",
+    description: "A per-app breakdown of what Copilot is actually good for in Word, Excel, PowerPoint, and Microsoft 365 chat, paired with example prompts for each, rather than a generic list of features.",
+    image: "assets/tldr/copilot-ms365-tips.jpg"
+  },
+  {
     title: "Apple sues OpenAI over alleged AI device trade secret theft",
     type: "news",
     source: "CNN Business",

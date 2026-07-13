@@ -167,5 +167,125 @@ window.AI_CONTENT = [
     url: "https://learnprompting.org/",
     date: "2026-07-12",
     description: "Less a course than a constantly updated field guide, covering everything from basic instruction writing through chain-of-thought and multi-agent prompting, useful to search when you hit a wall rather than to read start to finish."
+  },
+  {
+    title: "Anthropic details new cyber safeguards after redeploying Claude Fable 5",
+    type: "news",
+    source: "Anthropic",
+    url: "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    date: "2026-07-01",
+    description: "Working with Amazon, Microsoft, and Google under a joint initiative called Project Glasswing, Anthropic published how it grades cybersecurity requests by risk and how it scores jailbreak severity, an attempt at an industry-wide standard rather than one company's internal policy."
+  },
+  {
+    title: "AI data centers are about to push US electricity demand to record highs",
+    type: "news",
+    source: "WebProNews",
+    url: "https://www.webpronews.com/ai-data-centers-push-u-s-power-demand-to-fresh-records-through-2027/",
+    date: "2026-07-08",
+    description: "New federal energy projections show data center power draw roughly doubling by 2027, with AI workloads named as the main driver, a reminder that model progress is now also a grid capacity problem."
+  },
+  {
+    title: "White House orders a voluntary early-review lane for frontier AI models",
+    type: "news",
+    source: "The White House",
+    url: "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+    date: "2026-06-02",
+    description: "The executive order lets AI labs opt into sharing frontier models with the federal government for up to 30 days before release, explicitly stopping short of a mandatory licensing regime, a middle path between hands-off and heavy regulation."
+  },
+  {
+    title: "Stanford's own data shows AI experts and the public don't agree on much",
+    type: "article",
+    source: "KQED",
+    url: "https://www.kqed.org/news/12079472/stanford-study-ai-experts-are-optimistic-about-ai-the-rest-of-us-not-so-much",
+    date: "2026-04-14",
+    description: "73% of AI experts think the technology's effect on jobs is positive, versus 23% of the general public, a 50 point gap that this piece argues says as much about trust and communication as it does about the technology itself."
+  },
+  {
+    title: "2026 is the year vertical AI started outearning chatbots",
+    type: "article",
+    source: "mean.ceo",
+    url: "https://blog.mean.ceo/ai-industry-trends-july-2026/",
+    date: "2026-07-01",
+    description: "A monthly industry roundup argues that budgets are moving toward narrow, industry-specific tools that finish one bounded task well, support routing, bug triage, compliance drafting, over general purpose chatbots that demo well but don't finish anything on their own."
+  },
+  {
+    title: "MIT data shows AI coding agents write more code but ship barely more software",
+    type: "article",
+    source: "Forbes",
+    url: "https://www.forbes.com/sites/josipamajic/2026/06/10/ai-coding-agents-write-180-more-code-but-ship-only-30-more-software/",
+    date: "2026-06-10",
+    description: "Across more than 100,000 developers, AI agents increased code volume by about 180%, but the amount that actually reached production rose only 30%, a gap the piece pins on verification, not typing speed, being the real bottleneck."
+  },
+  {
+    title: "The UN's first global science panel on AI publishes its opening assessment",
+    type: "report",
+    source: "United Nations",
+    url: "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/en_Preliminary%20Report_.pdf",
+    date: "2026-07-07",
+    description: "The newly formed Independent International Scientific Panel on AI released its first preliminary report, an attempt to give governments a shared, non-partisan scientific reference point before national AI rules diverge too far from each other."
+  },
+  {
+    title: "ChatGPT sends more AI traffic to publishers than every other assistant combined",
+    type: "report",
+    source: "Previsible",
+    url: "https://previsible.com/seo-strategy/ai-traffic-report-july-2026/",
+    date: "2026-07-06",
+    description: "A study of 6.77 million LLM-driven sessions across 166 sites puts ChatGPT at 92.4% of standalone AI referral traffic, and finds nearly a third of that traffic lands on a site's internal search page rather than the right content directly."
+  },
+  {
+    title: "NVIDIA's enterprise survey finds AI is finally paying for itself",
+    type: "report",
+    source: "NVIDIA",
+    url: "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+    date: "2026-03-19",
+    description: "Based on responses across industries, the report finds AI has moved from pilot projects to full deployments touching code, legal, and finance work, with efficiency, productivity, and new revenue cited as the top three reasons companies are investing further."
+  },
+  {
+    title: "Claude Sonnet 5 narrows the gap with Anthropic's biggest model, at a third of the price",
+    type: "tool",
+    source: "Anthropic",
+    url: "https://www.anthropic.com/news/claude-sonnet-5",
+    date: "2026-06-30",
+    description: "Anthropic's latest Sonnet is built to plan, use tools like browsers and terminals, and run autonomously at a level that used to require the larger Opus model, while testing safer in agentic use than its predecessor."
+  },
+  {
+    title: "Bono AI turns a ten minute phone call into a week of content",
+    type: "tool",
+    source: "Product Hunt",
+    url: "https://www.producthunt.com/products/bono-ai",
+    date: "2026-07-09",
+    description: "Instead of a blank page, Bono interviews you by voice, asking follow-up questions to draw out the actual point, then turns the transcript into a blog post, newsletter, and social posts written in your own voice."
+  },
+  {
+    title: "Gemini 3.1 Pro doubles down on reasoning over raw scale",
+    type: "tool",
+    source: "Google",
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+    date: "2026-02-19",
+    description: "Google's mid-cycle Gemini update more than doubles the previous model's score on the ARC-AGI-2 reasoning benchmark, and ships straight into the Gemini app, NotebookLM, and developer tools rather than staying in preview."
+  },
+  {
+    title: "OpenAI Academy adds a three-course path from AI basics to running agents",
+    type: "learn",
+    source: "OpenAI",
+    url: "https://openai.com/index/academy-courses-applying-ai-at-work/",
+    date: "2026-06-12",
+    description: "AI Foundations, Applied AI Foundations, and Agents and Workflows are built to be taken in order, going from prompting basics to building repeatable workflows to directing agents with defined boundaries and checkpoints."
+  },
+  {
+    title: "DataCamp's newest course treats AI literacy as a work skill, not a technical one",
+    type: "learn",
+    source: "DataCamp",
+    url: "https://www.datacamp.com/courses/introduction-to-ai-for-work",
+    date: "2026-07-13",
+    description: "No coding, no math, just what AI actually is, how to write a prompt that gets a useful answer, and a safety checklist for catching hallucinations before they end up in something you send to a client."
+  },
+  {
+    title: "Harvard's CS50 AI course is still the free option for people who want the real fundamentals",
+    type: "learn",
+    source: "Harvard (CS50)",
+    url: "https://cs50.harvard.edu/ai/",
+    date: "2026-07-13",
+    description: "Seven weeks of lectures, source code, and problem sets covering search, machine learning, and neural networks, aimed at people who want to understand how AI systems actually work rather than just how to prompt one."
   }
 ];

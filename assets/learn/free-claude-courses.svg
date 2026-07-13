@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#1a2028" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#0b0e14"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <rect x="10" y="10" width="1580" height="980" rx="16" fill="none" stroke="#232937" stroke-width="2"/>
+
+  <text x="800" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#e8eaf0">12 Free <tspan fill="#2fd699">Claude</tspan> Courses</text>
+  <text x="800" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#8b93a7">A dozen free, expert-built resources for learning Claude in hours, not weeks</text>
+
+  <!-- column 1 -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="110" cy="285" r="34" fill="#2fd699"/>
+    <text x="110" y="296" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">1</text>
+    <text x="160" y="295" font-size="30" font-weight="600" fill="#e8eaf0">Claude starter course</text>
+
+    <circle cx="110" cy="405" r="34" fill="#3b8eea"/>
+    <text x="110" y="416" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">2</text>
+    <text x="160" y="415" font-size="30" font-weight="600" fill="#e8eaf0">What you can do with AI</text>
+
+    <circle cx="110" cy="525" r="34" fill="#e0a94f"/>
+    <text x="110" y="536" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">3</text>
+    <text x="160" y="535" font-size="30" font-weight="600" fill="#e8eaf0">How to stop hitting your Claude limit</text>
+
+    <circle cx="110" cy="645" r="34" fill="#a389f4"/>
+    <text x="110" y="656" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">4</text>
+    <text x="160" y="655" font-size="30" font-weight="600" fill="#e8eaf0">Claude guide to AI agents</text>
+
+    <circle cx="110" cy="765" r="34" fill="#e2617a"/>
+    <text x="110" y="776" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">5</text>
+    <text x="160" y="775" font-size="30" font-weight="600" fill="#e8eaf0">Introduction to Claude Cowork</text>
+
+    <circle cx="110" cy="885" r="34" fill="#38b6d1"/>
+    <text x="110" y="896" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">6</text>
+    <text x="160" y="895" font-size="30" font-weight="600" fill="#e8eaf0">Claude Code 101</text>
+
+    <!-- column 2 -->
+    <circle cx="860" cy="285" r="34" fill="#2fd699"/>
+    <text x="860" y="296" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">7</text>
+    <text x="910" y="295" font-size="30" font-weight="600" fill="#e8eaf0">Introduction to subagents</text>
+
+    <circle cx="860" cy="405" r="34" fill="#3b8eea"/>
+    <text x="860" y="416" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">8</text>
+    <text x="910" y="415" font-size="30" font-weight="600" fill="#e8eaf0">Introduction to agent skills</text>
+
+    <circle cx="860" cy="525" r="34" fill="#e0a94f"/>
+    <text x="860" y="536" text-anchor="middle" font-size="30" font-weight="700" fill="#0b0e14">9</text>
+    <text x="910" y="527" font-size="30" font-weight="600" fill="#e8eaf0">Introduction to Model Context</text>
+    <text x="910" y="561" font-size="30" font-weight="600" fill="#e8eaf0">Protocol (MCP)</text>
+
+    <circle cx="860" cy="645" r="34" fill="#a389f4"/>
+    <text x="860" y="656" text-anchor="middle" font-size="28" font-weight="700" fill="#0b0e14">10</text>
+    <text x="910" y="637" font-size="30" font-weight="600" fill="#e8eaf0">Frameworks and foundations</text>
+    <text x="910" y="671" font-size="30" font-weight="600" fill="#e8eaf0">for AI fluency</text>
+
+    <circle cx="860" cy="765" r="34" fill="#e2617a"/>
+    <text x="860" y="776" text-anchor="middle" font-size="28" font-weight="700" fill="#0b0e14">11</text>
+    <text x="910" y="775" font-size="30" font-weight="600" fill="#e8eaf0">AI capabilities and limitations</text>
+
+    <circle cx="860" cy="885" r="34" fill="#38b6d1"/>
+    <text x="860" y="896" text-anchor="middle" font-size="28" font-weight="700" fill="#0b0e14">12</text>
+    <text x="910" y="895" font-size="30" font-weight="600" fill="#e8eaf0">Building with the Claude API</text>
+  </g>
+
+  <text x="1500" y="965" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="22" fill="#565f74">genai.works</text>
+</svg>

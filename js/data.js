@@ -196,6 +196,15 @@ window.AI_CONTENT = [
     description: "Less a course than a constantly updated field guide, covering everything from basic instruction writing through chain-of-thought and multi-agent prompting, useful to search when you hit a wall rather than to read start to finish."
   },
   {
+    title: "12 free courses for going deep on Claude, one link per topic",
+    type: "learn",
+    source: "GenAI.works",
+    url: "https://www.linkedin.com/company/genai-works",
+    date: "2026-07-13",
+    description: "A curated roundup spanning both GenAI Works Academy and Anthropic's own courses, running from a beginner starter course through subagents, skills, and MCP, up to building directly against the Claude API.",
+    image: "assets/learn/free-claude-courses.svg"
+  },
+  {
     title: "Anthropic details new cyber safeguards after redeploying Claude Fable 5",
     type: "news",
     source: "Anthropic",

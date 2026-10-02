@@ -128,3 +128,39 @@
   document.documentElement.classList.add("js-ready");
   setInterval(render, 30000);
 })();
+
+// Hero cube: spins on a randomly chosen axis, switching every 3 seconds.
+(function () {
+  var cube = document.querySelector(".lc-cube");
+  if (!cube) return;
+
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var angles = { x: -25, y: -35, z: 0 };
+  var activeAxis = "y";
+  var speed = 45;
+
+  function apply() {
+    cube.style.transform =
+      "rotateX(" + angles.x + "deg) rotateY(" + angles.y + "deg) rotateZ(" + angles.z + "deg)";
+  }
+  apply();
+
+  if (!reduceMotion) {
+    function pickAxis() {
+      var axes = ["x", "y", "z"];
+      activeAxis = axes[Math.floor(Math.random() * axes.length)];
+    }
+    pickAxis();
+    setInterval(pickAxis, 3000);
+
+    var lastTime = performance.now();
+    function tick(now) {
+      var dt = (now - lastTime) / 1000;
+      lastTime = now;
+      angles[activeAxis] += speed * dt;
+      apply();
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+})();

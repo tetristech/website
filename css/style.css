@@ -381,6 +381,95 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .site-footer .logo { font-size: 1rem; }
 .site-footer .logo-mark { width: 22px; height: 22px; }
 
+
+/* ============================================
+   Language selector
+   ============================================ */
+.header-right { display: flex; align-items: center; gap: 10px; }
+.lang { position: relative; }
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 7px 10px;
+  cursor: pointer;
+  transition: border-color 0.25s var(--ease), background 0.25s var(--ease);
+}
+.lang-btn:hover, .lang-btn[aria-expanded="true"] { border-color: var(--accent); background: rgba(47,214,153,0.08); }
+.lang-current { display: inline-flex; align-items: center; gap: 8px; }
+.flag { width: 20px; height: 14px; border-radius: 2px; flex-shrink: 0; box-shadow: 0 0 0 1px rgba(255,255,255,0.12); }
+.caret { width: 10px; height: 7px; color: var(--text-muted); transition: transform 0.2s var(--ease); }
+.lang-btn[aria-expanded="true"] .caret { transform: rotate(180deg); }
+.lang-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  min-width: 180px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  z-index: 60;
+}
+.lang-menu li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  cursor: pointer;
+  outline: none;
+}
+.lang-menu li:hover, .lang-menu li:focus { background: rgba(47,214,153,0.10); }
+.lang-menu li[aria-selected="true"] { color: var(--accent); }
+.lang-name { font-family: var(--font-body); color: var(--text-muted); margin-left: auto; }
+
+/* ============================================
+   Contact form
+   ============================================ */
+.contact-inner { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(32px, 5vw, 64px); align-items: start; }
+.contact-alt { font-size: 0.95rem !important; }
+.contact-form { display: grid; gap: 16px; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { display: grid; gap: 6px; }
+.field label { font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted); }
+.field input, .field select, .field textarea {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 11px 14px;
+  font: inherit;
+  font-size: 0.95rem;
+  border-radius: var(--radius);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.field textarea { resize: vertical; min-height: 120px; }
+.field input:focus, .field select:focus, .field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(47,214,153,0.14);
+}
+.field textarea::placeholder { color: var(--text-faint); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.form-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.form-foot .btn { margin-top: 0; cursor: pointer; font: inherit; font-weight: 600; }
+.form-foot .btn:disabled { opacity: 0.6; cursor: wait; }
+.form-status { margin: 0; font-size: 0.92rem; color: var(--text-muted); }
+.form-status.is-ok { color: var(--accent); }
+.form-status.is-error { color: #e2617a; }
+
 /* ============================================
    Responsive
    ============================================ */
@@ -406,11 +495,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   .lc-viewport { width: 140px; height: 140px; }
   .lc-scene { transform: scale(0.5); }
 
-  .about-grid, .service-grid, .audience-grid, .join-grid, .why, .steps, .ladder { grid-template-columns: 1fr; }
+  .about-grid, .service-grid, .audience-grid, .join-grid, .why, .steps, .ladder, .contact-inner { grid-template-columns: 1fr; }
   .facts div { grid-template-columns: 1fr; gap: 4px; }
   .timeline { --label: 84px; }
 }
 @media (max-width: 520px) {
+  .field-row { grid-template-columns: 1fr; }
   .zone-picker { width: 100%; }
   .zone-picker button { flex: 1; padding: 8px 4px; font-size: 0.75rem; }
   .track-name { font-size: 0.75rem; }

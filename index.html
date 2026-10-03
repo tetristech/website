@@ -3,48 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tetristech | Nearshore cloud, data, AI, and security engineers from Brazil</title>
-  <meta name="description" content="Senior Brazil-based engineers and small delivery teams for U.S. partners and enterprise teams. Same workday, lower total cost, start with one specialist.">
+  <title data-i18n="meta.title">Tetristech | Nearshore cloud, data, AI, and security engineers from Brazil</title>
+  <meta name="description" data-i18n-attr="content:meta.desc" content="Senior Brazil-based engineers and small delivery teams for U.S. partners and enterprise teams. Same workday, lower total cost, start with one specialist.">
   <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
+  <script src="js/i18n.js?v=4"></script>
 </head>
 <body>
 
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="logo" href="#top" aria-label="Tetristech home">
+    <a class="logo" href="#top" aria-label="Tetristech">
       <img src="assets/logo.png" alt="" class="logo-mark" width="26" height="26">
-      Tetristech<span class="logo-tagline">/ Nearshore engineering</span>
+      Tetristech<span class="logo-tagline" data-i18n="tagline">/ Nearshore engineering</span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" class="site-nav" aria-label="Main">
-      <a href="#services">Services</a>
-      <a href="#engagements">How we work</a>
-      <a href="#who">Who it's for</a>
-      <a href="#join">Join us</a>
-      <a class="btn btn-small" href="#contact">Start a conversation</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#engagements" data-i18n="nav.how">How we work</a>
+      <a href="#who" data-i18n="nav.who">Who it's for</a>
+      <a href="#join" data-i18n="nav.join">Join us</a>
+      <a class="btn btn-small" href="#contact" data-i18n="nav.cta">Start a conversation</a>
     </nav>
+    <div class="header-right">
+      <div class="lang">
+        <button class="lang-btn" id="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="lang-current" id="lang-current"><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#b22234"/><g fill="#fff"><rect y="1.54" width="30" height="1.54"/><rect y="4.62" width="30" height="1.54"/><rect y="7.69" width="30" height="1.54"/><rect y="10.77" width="30" height="1.54"/><rect y="13.85" width="30" height="1.54"/><rect y="16.92" width="30" height="1.54"/></g><rect width="13" height="10.77" fill="#3c3b6e"/></svg><span>EN</span></span>
+          <svg class="caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language" hidden>
+          <li role="option" data-lang="en" aria-selected="true" tabindex="-1"><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#b22234"/><g fill="#fff"><rect y="1.54" width="30" height="1.54"/><rect y="4.62" width="30" height="1.54"/><rect y="7.69" width="30" height="1.54"/><rect y="10.77" width="30" height="1.54"/><rect y="13.85" width="30" height="1.54"/><rect y="16.92" width="30" height="1.54"/></g><rect width="13" height="10.77" fill="#3c3b6e"/></svg><span>EN</span><span class="lang-name">English</span></li>
+          <li role="option" data-lang="pt" aria-selected="false" tabindex="-1"><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#009c3b"/><path d="M15 2.5 27 10 15 17.5 3 10Z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.6" fill="#002776"/><path d="M10.6 9.1c3-.6 6.2.1 8.8 1.8" stroke="#fff" stroke-width=".8" fill="none"/></svg><span>PT</span><span class="lang-name">Português</span></li>
+        </ul>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n="nav.menu">Menu</button>
+    </div>
   </div>
 </header>
 
 <main id="main">
 
-  <!-- HERO -->
   <section class="hero" id="top">
     <div class="wrap">
       <div class="hero-grid">
         <div>
-          <p class="eyebrow">Brazil nearshore, U.S. hours</p>
-          <h1 class="hero-title">Senior engineers in Brazil, <span class="accent">working your hours.</span></h1>
-          <p class="hero-lede">Tetristech adds experienced cloud, data, AI, and security specialists to U.S. partners and enterprise teams. You get real time collaboration, lower total cost than U.S. consulting, and you can start with one person.</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Brazil nearshore, U.S. hours</p>
+          <h1 class="hero-title" data-i18n="hero.title">Senior engineers in Brazil, <span class="accent">working your hours.</span></h1>
+          <p class="hero-lede" data-i18n="hero.lede">Tetristech adds experienced cloud, data, AI, and security specialists to U.S. partners and enterprise teams. You get real time collaboration, lower total cost than U.S. consulting, and you can start with one person.</p>
           <div class="hero-actions">
-            <a class="btn" href="#contact">Share a role or project</a>
-            <a class="btn btn-ghost" href="#services">See what we deliver</a>
+            <a class="btn" href="#contact" data-i18n="hero.cta1">Share a role or project</a>
+            <a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">See what we deliver</a>
           </div>
         </div>
         <div class="hero-emblem" aria-hidden="true">
@@ -65,15 +77,14 @@
 
       <figure class="overlap" aria-labelledby="overlap-caption">
         <div class="overlap-head">
-          <p id="overlap-caption" class="overlap-caption">Your workday and ours, today.</p>
-          <div class="zone-picker" role="radiogroup" aria-label="Your U.S. time zone">
-            <button role="radio" aria-checked="true" data-zone="America/New_York" data-label="New York">Eastern</button>
-            <button role="radio" aria-checked="false" data-zone="America/Chicago" data-label="Chicago">Central</button>
-            <button role="radio" aria-checked="false" data-zone="America/Denver" data-label="Denver">Mountain</button>
-            <button role="radio" aria-checked="false" data-zone="America/Los_Angeles" data-label="Los Angeles">Pacific</button>
+          <p id="overlap-caption" class="overlap-caption" data-i18n="chart.caption">Your workday and ours, today.</p>
+          <div class="zone-picker" role="radiogroup" data-i18n-attr="aria-label:chart.zone">
+            <button role="radio" aria-checked="true" data-zone="America/New_York" data-city="ny" data-i18n="chart.eastern">Eastern</button>
+            <button role="radio" aria-checked="false" data-zone="America/Chicago" data-city="chi" data-i18n="chart.central">Central</button>
+            <button role="radio" aria-checked="false" data-zone="America/Denver" data-city="den" data-i18n="chart.mountain">Mountain</button>
+            <button role="radio" aria-checked="false" data-zone="America/Los_Angeles" data-city="la" data-i18n="chart.pacific">Pacific</button>
           </div>
         </div>
-
         <div class="timeline" aria-hidden="true">
           <div class="track">
             <span class="track-name" id="us-name">New York</span>
@@ -84,180 +95,165 @@
             <div class="track-bar"><div class="bar bar-br" id="bar-br"></div></div>
           </div>
           <div class="overlap-band" id="band"></div>
-          <div class="now" id="now"><span class="now-label">Now</span></div>
+          <div class="now" id="now"><span class="now-label" data-i18n="chart.now">Now</span></div>
           <div class="hours" id="hours"></div>
         </div>
-
-        <p class="overlap-summary" id="overlap-summary" aria-live="polite">São Paulo is 1 hour ahead of New York today. That's 8 shared working hours.</p>
+        <p class="overlap-summary" id="overlap-summary" aria-live="polite"></p>
       </figure>
     </div>
   </section>
 
-  <!-- WHO WE ARE -->
   <section class="section about" id="about">
     <div class="wrap about-grid">
-      <h2>A middle path between offshore staffing and U.S. consulting.</h2>
+      <h2 data-i18n="about.title">A middle path between offshore staffing and U.S. consulting.</h2>
       <div class="about-body">
-        <p>Tetristech has delivered enterprise technology services in Brazil since 1994. Today we focus on one thing: giving U.S. teams senior technical people who join their meetings, answer the same day, and cost less than local supply.</p>
-        <p>We don't keep an oversized bench. We qualify people against your actual need, so the person you meet is the person who does the work.</p>
+        <p data-i18n="about.p1">Tetristech has delivered enterprise technology services in Brazil since 1994. Today we focus on one thing: giving U.S. teams senior technical people who join their meetings, answer the same day, and cost less than local supply.</p>
+        <p data-i18n="about.p2">We don't keep an oversized bench. We qualify people against your actual need, so the person you meet is the person who does the work.</p>
         <dl class="facts">
-          <div><dt>Since 1994</dt><dd>Technology services heritage in Brazil</dd></div>
-          <div><dt>U.S. hours</dt><dd>Real time overlap with your workday</dd></div>
-          <div><dt>Partner friendly</dt><dd>White label delivery behind your brand</dd></div>
+          <div><dt data-i18n="about.f1t">Since 1994</dt><dd data-i18n="about.f1d">Technology services heritage in Brazil</dd></div>
+          <div><dt data-i18n="about.f2t">U.S. hours</dt><dd data-i18n="about.f2d">Real time overlap with your workday</dd></div>
+          <div><dt data-i18n="about.f3t">Partner friendly</dt><dd data-i18n="about.f3d">White label delivery behind your brand</dd></div>
         </dl>
       </div>
     </div>
   </section>
 
-  <!-- SERVICES -->
   <section class="section services" id="services">
     <div class="wrap">
-      <h2>What we deliver</h2>
-      <p class="section-lede">A focused portfolio for work that needs experienced specialists and close collaboration with U.S. teams.</p>
-
+      <h2 data-i18n="svc.title">What we deliver</h2>
+      <p class="section-lede" data-i18n="svc.lede">A focused portfolio for work that needs experienced specialists and close collaboration with U.S. teams.</p>
       <div class="service-grid">
-        <article class="service">
-          <h3>AI, ML, and GenAI</h3>
-          <p>RAG solutions, agents, model integration, MLOps, governance, and production rollout.</p>
-        </article>
-        <article class="service">
-          <h3>Data engineering</h3>
-          <p>Data platforms, pipelines, analytics engineering, lakehouse delivery, and database modernization.</p>
-        </article>
-        <article class="service">
-          <h3>Cloud infrastructure and architecture</h3>
-          <p>AWS and Azure, DevOps, observability, migration, platform engineering, and application architecture.</p>
-        </article>
-        <article class="service">
-          <h3>AI security and cybersecurity</h3>
-          <p>Secure AI architecture, application security, IAM, cloud posture, data protection, and governance.</p>
-        </article>
+        <article class="service"><h3 data-i18n="svc.ai.t">AI, ML, and GenAI</h3><p data-i18n="svc.ai.d">RAG solutions, agents, model integration, MLOps, governance, and production rollout.</p></article>
+        <article class="service"><h3 data-i18n="svc.data.t">Data engineering</h3><p data-i18n="svc.data.d">Data platforms, pipelines, analytics engineering, lakehouse delivery, and database modernization.</p></article>
+        <article class="service"><h3 data-i18n="svc.cloud.t">Cloud infrastructure and architecture</h3><p data-i18n="svc.cloud.d">AWS and Azure, DevOps, observability, migration, platform engineering, and application architecture.</p></article>
+        <article class="service"><h3 data-i18n="svc.sec.t">AI security and cybersecurity</h3><p data-i18n="svc.sec.d">Secure AI architecture, application security, IAM, cloud posture, data protection, and governance.</p></article>
       </div>
-
-      <div class="service-extra">
-        <p><strong>Specialists on demand.</strong> SAP, Oracle, and Microsoft .NET experts, sourced and qualified when you have a funded need.</p>
-      </div>
+      <div class="service-extra"><p data-i18n="svc.extra"><strong>Specialists on demand.</strong> SAP, Oracle, and Microsoft .NET experts, sourced and qualified when you have a funded need.</p></div>
     </div>
   </section>
 
-  <!-- ENGAGEMENTS -->
   <section class="section engagements" id="engagements">
     <div class="wrap">
-      <h2>Start small. Grow when it works.</h2>
-      <p class="section-lede">Most clients begin with one specialist and move to a managed team once we've proven the fit.</p>
-
+      <h2 data-i18n="eng.title">Start small. Grow when it works.</h2>
+      <p class="section-lede" data-i18n="eng.lede">Most clients begin with one specialist and move to a managed team once we've proven the fit.</p>
       <ol class="ladder">
-        <li class="rung">
-          <div class="people" aria-hidden="true"><i></i></div>
-          <h3>Specialist augmentation</h3>
-          <p>One qualified professional joins your team to fill a defined skill gap. You direct the daily work. We handle sourcing and continuity.</p>
-        </li>
-        <li class="rung">
-          <div class="people" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-          <h3>Managed delivery pod</h3>
-          <p>A small team of two to five owns a defined workstream. We provide delivery leadership, milestones, and governance. Capacity grows with demand.</p>
-        </li>
-        <li class="rung">
-          <div class="people" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <h3>Assessment or project wave</h3>
-          <p>A focused team delivers an assessment, roadmap, migration, or modernization package against an agreed SOW, with clear outputs from day one.</p>
-        </li>
+        <li class="rung"><div class="people" aria-hidden="true"><i></i></div><h3 data-i18n="eng.1t">Specialist augmentation</h3><p data-i18n="eng.1d">One qualified professional joins your team to fill a defined skill gap. You direct the daily work. We handle sourcing and continuity.</p></li>
+        <li class="rung"><div class="people" aria-hidden="true"><i></i><i></i><i></i><i></i></div><h3 data-i18n="eng.2t">Managed delivery pod</h3><p data-i18n="eng.2d">A small team of two to five owns a defined workstream. We provide delivery leadership, milestones, and governance. Capacity grows with demand.</p></li>
+        <li class="rung"><div class="people" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><h3 data-i18n="eng.3t">Assessment or project wave</h3><p data-i18n="eng.3d">A focused team delivers an assessment, roadmap, migration, or modernization package against an agreed SOW, with clear outputs from day one.</p></li>
       </ol>
     </div>
   </section>
 
-  <!-- AUDIENCES -->
   <section class="section audiences" id="who">
     <div class="wrap">
-      <h2>Who we work with</h2>
+      <h2 data-i18n="aud.title">Who we work with</h2>
       <div class="audience-grid">
         <article class="audience">
-          <h3>IT services firms and cloud partners</h3>
-          <p>Add delivery capacity without growing U.S. headcount or giving up the customer relationship.</p>
+          <h3 data-i18n="aud.p.t">IT services firms and cloud partners</h3>
+          <p data-i18n="aud.p.d">Add delivery capacity without growing U.S. headcount or giving up the customer relationship.</p>
           <ul>
-            <li>One specialist for an urgent project gap</li>
-            <li>A small pod for a funded workstream</li>
-            <li>White label delivery behind your brand</li>
-            <li>Pricing built around your resale margin</li>
+            <li data-i18n="aud.p.1">One specialist for an urgent project gap</li>
+            <li data-i18n="aud.p.2">A small pod for a funded workstream</li>
+            <li data-i18n="aud.p.3">White label delivery behind your brand</li>
+            <li data-i18n="aud.p.4">Pricing built around your resale margin</li>
           </ul>
         </article>
         <article class="audience">
-          <h3>Enterprise technology teams</h3>
-          <p>Nearshore execution for cloud and data programs, without the cost of a full U.S. consulting team.</p>
+          <h3 data-i18n="aud.e.t">Enterprise technology teams</h3>
+          <p data-i18n="aud.e.d">Nearshore execution for cloud and data programs, without the cost of a full U.S. consulting team.</p>
           <ul>
-            <li>Assessment and roadmap</li>
-            <li>Specialist augmentation</li>
-            <li>Managed delivery pod</li>
-            <li>Migration or modernization wave</li>
+            <li data-i18n="aud.e.1">Assessment and roadmap</li>
+            <li data-i18n="aud.e.2">Specialist augmentation</li>
+            <li data-i18n="aud.e.3">Managed delivery pod</li>
+            <li data-i18n="aud.e.4">Migration or modernization wave</li>
           </ul>
         </article>
       </div>
-
       <div class="why">
-        <div>
-          <h3>Closer collaboration</h3>
-          <p>Brazil overlaps the U.S. business day, so decisions happen in hours, not overnight.</p>
-        </div>
-        <div>
-          <h3>Lower total delivery cost</h3>
-          <p>Hourly rate isn't the whole story. Fewer handoffs and less waiting mean less management load.</p>
-        </div>
-        <div>
-          <h3>Flexible commitment</h3>
-          <p>Capacity follows your funded demand. No big fixed contract to get started.</p>
-        </div>
+        <div><h3 data-i18n="why.1t">Closer collaboration</h3><p data-i18n="why.1d">Brazil overlaps the U.S. business day, so decisions happen in hours, not overnight.</p></div>
+        <div><h3 data-i18n="why.2t">Lower total delivery cost</h3><p data-i18n="why.2d">Hourly rate isn't the whole story. Fewer handoffs and less waiting mean less management load.</p></div>
+        <div><h3 data-i18n="why.3t">Flexible commitment</h3><p data-i18n="why.3d">Capacity follows your funded demand. No big fixed contract to get started.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- PROCESS -->
   <section class="section process" id="process">
     <div class="wrap">
-      <h2>How to get started</h2>
+      <h2 data-i18n="proc.title">How to get started</h2>
       <ol class="steps">
-        <li>
-          <h3>Tell us what you need</h3>
-          <p>Share the role or workstream, skills, seniority, timing, and the outcome you expect.</p>
-        </li>
-        <li>
-          <h3>Review the approach</h3>
-          <p>Meet vetted profiles, and review the structure, availability, rates, and governance.</p>
-        </li>
-        <li>
-          <h3>Begin delivery</h3>
-          <p>Sign the NDA, MSA, and SOW. We onboard your specialist or pod and set the working rhythm.</p>
-        </li>
+        <li><h3 data-i18n="proc.1t">Tell us what you need</h3><p data-i18n="proc.1d">Share the role or workstream, skills, seniority, timing, and the outcome you expect.</p></li>
+        <li><h3 data-i18n="proc.2t">Review the approach</h3><p data-i18n="proc.2d">Meet vetted profiles, and review the structure, availability, rates, and governance.</p></li>
+        <li><h3 data-i18n="proc.3t">Begin delivery</h3><p data-i18n="proc.3d">Sign the NDA, MSA, and SOW. We onboard your specialist or pod and set the working rhythm.</p></li>
       </ol>
     </div>
   </section>
 
-  <!-- JOIN -->
   <section class="section join" id="join">
     <div class="wrap">
-      <h2>Join us</h2>
+      <h2 data-i18n="join.title">Join us</h2>
       <div class="join-grid">
         <article class="join-card">
-          <h3>Engineers in Brazil</h3>
-          <p>Work on U.S. partner and enterprise projects without leaving Brazil. We're building a network of senior professionals in cloud, architecture, data, AI, security, and delivery leadership.</p>
-          <p class="join-req">You'll need senior experience, working English, and availability during U.S. hours.</p>
-          <a class="btn btn-ghost" href="mailto:talent@tetristech.com?subject=Talent%20network">Send your résumé</a>
+          <h3 data-i18n="join.t.t">Engineers in Brazil</h3>
+          <p data-i18n="join.t.d">Work on U.S. partner and enterprise projects without leaving Brazil. We're building a network of senior professionals in cloud, architecture, data, AI, security, and delivery leadership.</p>
+          <p class="join-req" data-i18n="join.t.r">You'll need senior experience, working English, and availability during U.S. hours.</p>
+          <a class="btn btn-ghost" href="#contact" data-topic="talent" data-i18n="join.t.cta">Send your résumé</a>
         </article>
         <article class="join-card">
-          <h3>Independent sales representatives</h3>
-          <p>Have relationships with cloud partners, systems integrators, or enterprise tech buyers? Introduce Tetristech and earn a success fee when deals turn into collected revenue.</p>
-          <p class="join-req">Terms are set in a written agreement. Registered introductions are protected.</p>
-          <a class="btn btn-ghost" href="mailto:partners@tetristech.com?subject=Sales%20representative">Ask about the program</a>
+          <h3 data-i18n="join.s.t">Independent sales representatives</h3>
+          <p data-i18n="join.s.d">Have relationships with cloud partners, systems integrators, or enterprise tech buyers? Introduce Tetristech and earn a success fee when deals turn into collected revenue.</p>
+          <p class="join-req" data-i18n="join.s.r">Terms are set in a written agreement. Registered introductions are protected.</p>
+          <a class="btn btn-ghost" href="#contact" data-topic="sales" data-i18n="join.s.cta">Ask about the program</a>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section class="section contact" id="contact">
-    <div class="wrap contact-inner">
-      <h2>Have a role or project in mind?</h2>
-      <p>Send us the basics: the skills you need, the timing, and what success looks like. We'll come back with an approach and qualified profiles.</p>
-      <a class="btn btn-large" href="mailto:hello@tetristech.com?subject=Project%20inquiry">Email hello@tetristech.com</a>
+    <div class="wrap">
+      <div class="contact-inner">
+        <div class="contact-intro">
+          <h2 data-i18n="contact.title">Have a role or project in mind?</h2>
+          <p data-i18n="contact.lede">Send us the basics: the skills you need, the timing, and what success looks like. We'll come back with an approach and qualified profiles.</p>
+          <p class="contact-alt"><span data-i18n="contact.alt">Prefer email?</span> <a href="mailto:hello@tetristech.com">hello@tetristech.com</a></p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-name" data-i18n="form.name">Name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-email" data-i18n="form.email">Work email</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-company" data-i18n="form.company">Company</label>
+              <input id="cf-company" name="company" type="text" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="cf-topic" data-i18n="form.topic">I'm interested in</label>
+              <select id="cf-topic" name="topic">
+                <option value="project" data-i18n="form.t.project">Hiring engineers</option>
+                <option value="talent" data-i18n="form.t.talent">Joining the talent network</option>
+                <option value="sales" data-i18n="form.t.sales">Sales rep program</option>
+                <option value="other" data-i18n="form.t.other">Something else</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-message" data-i18n="form.message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required data-i18n-attr="placeholder:form.ph"></textarea>
+          </div>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-foot">
+            <button type="submit" class="btn" id="cf-submit" data-i18n="form.send">Send message</button>
+            <p class="form-status" id="cf-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
@@ -266,11 +262,11 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <span class="logo"><img src="assets/logo.png" alt="" class="logo-mark" width="22" height="22">Tetristech</span>
-    <p>Technology services since 1994. Delivery from Brazil, in U.S. hours.</p>
+    <p data-i18n="footer.line">Technology services since 1994. Delivery from Brazil, in U.S. hours.</p>
     <p class="copy">© <span id="year">2026</span> Tetristech</p>
   </div>
 </footer>
 
-<script src="js/main.js?v=3"></script>
+<script src="js/main.js?v=4"></script>
 </body>
 </html>
